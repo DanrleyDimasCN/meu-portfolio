@@ -18,6 +18,7 @@ const projects: Project[] = [
         description: "Sistema completo em desenvolvimento para automação comercial e gestão de estoque. Desenvolvido para facilitar a rotina de vendas com integração direta via WhatsApp.",
         tech: ["Next/React.js", "TypeScript", "Node.js/Express", "React Native", "Zustand", "Shadcn/UI", "WhatsApp API", "MongoDB", "Tailwind CSS"],
         image: vendafacil,
+        link: "https://www.usevendafacil.com.br"
         
     },
     {
