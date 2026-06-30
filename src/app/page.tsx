@@ -34,12 +34,12 @@ export default function Home() {
 
             <div className="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
-            <ProjectGallery />
+            <AcademicBackground />
 
             <div className="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
-            <AcademicBackground />
-
+            <ProjectGallery />
+            
             {/* Footer */}
             <footer id="contact" className="py-12 border-t border-white/10 mt-24 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 -z-10"></div>
@@ -49,7 +49,7 @@ export default function Home() {
                         Atualmente, estou aberto a novas oportunidades. Se você tiver alguma dúvida ou quiser apenas dar um oi, farei o possível para responder!
                     </p>
 
-                    
+
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
                         <a
                             href={`mailto:${email}?subject=Contato via Portfólio`}
@@ -57,10 +57,10 @@ export default function Home() {
                         >
                             Diga Olá
                         </a>
-                        
+
                         <ContactForm />
 
-                        <button 
+                        <button
                             onClick={handleCopy}
                             className="px-8 py-4 rounded-full border border-white/10 bg-white/5 text-gray-300 font-medium hover:bg-white/10 transition-all hover:border-white/20"
                         >
